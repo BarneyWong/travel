@@ -17,48 +17,12 @@
 <script>
 export default {
   name: 'icons',
-  data: function () {
+  props: {
+    iconList: Array
+  },
+  data () {
     return {
-      swiperOptions: {},
-      iconList: [
-        {
-          id: '0001',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游1'
-        }, {
-          id: '0002',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游222222222222'
-        }, {
-          id: '0003',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游3'
-        }, {
-          id: '0004',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游4'
-        }, {
-          id: '0005',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游5'
-        }, {
-          id: '0006',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游6'
-        }, {
-          id: '0007',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游7'
-        }, {
-          id: '0008',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游8'
-        }, {
-          id: '0009',
-          imgUrl: 'https://pages.c-ctrip.com/groupTravelUED/travel_homepage/8.1.2icon/%E8%B7%9F%E5%9B%A2%E6%B8%B8.png',
-          desc: '周边游9'
-        }
-      ]
+      swiperOptions: {}
     }
   },
   computed: {

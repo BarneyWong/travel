@@ -20,41 +20,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data: function () {
-    return {
-      recommendList: [
-        {
-          id: '0001',
-          imgUrl: 'https://dimg03.c-ctrip.com/images/20010v000000kdnkkDDB9_C_230_320.jpg',
-          title: '三亚自助游2222222222222ddddddddddddddddddddddddd',
-          desc: '三亚三日自助游222222222'
-        },
-        {
-          id: '0002',
-          imgUrl: 'https://dimg03.c-ctrip.com/images/20010v000000kdnkkDDB9_C_230_320.jpg',
-          title: '三亚自助游2222222222222ddddddddddddddddddddddddd',
-          desc: '三亚三日自助游222222222'
-        },
-        {
-          id: '0003',
-          imgUrl: 'https://dimg03.c-ctrip.com/images/20010v000000kdnkkDDB9_C_230_320.jpg',
-          title: '三亚自助游2222222222222ddddddddddddddddddddddddd',
-          desc: '三亚三日自助游222222222'
-        },
-        {
-          id: '0004',
-          imgUrl: 'https://dimg03.c-ctrip.com/images/20010v000000kdnkkDDB9_C_230_320.jpg',
-          title: '三亚自助游2222222222222ddddddddddddddddddddddddd',
-          desc: '三亚三日自助游222222222'
-        },
-        {
-          id: '0005',
-          imgUrl: 'https://dimg03.c-ctrip.com/images/20010v000000kdnkkDDB9_C_230_320.jpg',
-          title: '三亚自助游2222222222222ddddddddddddddddddddddddd',
-          desc: '三亚三日自助游222222222'
-        }
-      ]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
